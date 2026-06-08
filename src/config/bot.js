@@ -63,9 +63,9 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
-      approved: "#00FF00",
-      denied: "#FF0000",
+      pending: "#3001d0",
+      approved: "#3001d0",
+      denied: "#3001d0",
     },
 
     // How long users must wait before submitting another application (hours).
@@ -92,10 +92,10 @@ export const botConfig = {
       secondary: "#4200fe", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
-      warning: "#FEE75C", 
-      info: "#3498DB", 
+      success: "#3001d0", 
+      error: "#3001d0", 
+      warning: "#3001d0", 
+      info: "#3001d0", 
 
       // Neutral utility colors.
       light: "#FFFFFF",
