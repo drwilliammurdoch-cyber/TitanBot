@@ -88,8 +88,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#5600ff", 
-      secondary: "#4200fe", 
+      primary: "#3001d0", 
+      secondary: "#3001d0", 
 
       // Standard status colors for success/error/warning/info messages.
       success: "#3001d0", 
@@ -103,35 +103,35 @@ export const botConfig = {
       gray: "#99AAB5",
 
       // Discord-style palette shortcuts.
-      blurple: "#5865F2",
+      blurple: "#3001d0",
       green: "#3001d0",
-      yellow: "#FEE75C",
-      fuchsia: "#EB459E",
-      red: "#ED4245",
-      black: "#000000",
+      yellow: "#3001d0",
+      fuchsia: "#3001d0",
+      red: "#3001d0",
+      black: "#3001d0",
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#3001d0",
+        ended: "#3001d0",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#3001d0",
+        claimed: "#3001d0",
+        closed: "#3001d0",
+        pending: "#3001d0",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#3001d0",
+      birthday: "#3001d0",
+      moderation: "#3001d0",
 
       // Ticket priority color mapping.
       priority: {
-        none: "#95A5A6",
-        low: "#3498db",
-        medium: "#2ecc71",
-        high: "#f1c40f",
-        urgent: "#e74c3c",
+        none: "#3001d0",
+        low: "#3001d0",
+        medium: "#3001d0",
+        high: "#3001d0",
+        urgent: "#3001d0",
       },
     },
     footer: {
@@ -210,27 +210,27 @@ export const botConfig = {
     priorities: {
       none: {
         emoji: "⚪",
-        color: "#95A5A6",
+        color: "#3001d0",
         label: "None",
       },
       low: {
         emoji: "🟢",
-        color: "#2ECC71",
+        color: "#3001d0",
         label: "Low",
       },
       medium: {
         emoji: "🟡",
-        color: "#F1C40F",
+        color: "#3001d0",
         label: "Medium",
       },
       high: {
         emoji: "🔴",
-        color: "#E74C3C",
+        color: "#3001d0",
         label: "High",
       },
       urgent: {
         emoji: "🚨",
-        color: "#E91E63",
+        color: "#3001d0",
         label: "Urgent",
       },
     },
@@ -514,7 +514,7 @@ if (configErrors.length > 0) {
 
 export const BotConfig = botConfig;
 
-export function getColor(path, fallback = "#99AAB5") {
+export function getColor(path, fallback = "#3001d0") {
   
   if (typeof path === "number") return path;
   if (typeof path === "string" && path.startsWith("#")) {
